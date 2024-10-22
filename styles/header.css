@@ -1,0 +1,103 @@
+.header {
+    font-weight: var(--primary-font-weigth, 700);
+    font-size: var(--secondary-font-size, 1.3vw);
+}
+
+.header__nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.header__nav__first-menu {
+    background-color: var(--primary-color, #E50914);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2.5vw;
+}
+
+.header__nav__first-menu__main-anchor {
+    text-decoration: none;
+    font-size: var(--primary-font-size, 2vw);
+    color: var(--tertiary-color, #ffffff);
+}
+
+.header__nav__first-menu__main-anchor:hover,
+.header__nav__first-menu__main-anchor:active {
+    color: var(--secondary-color, #000000);
+}
+
+.header__nav__first-menu__main-anchor__current {
+    color: var(--secondary-color, #000000);
+    pointer-events: none;
+}
+
+.header__nav__anchors {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5vw;
+}
+
+.header__nav__first-menu__anchor {
+    text-decoration: none;
+    color: var(--secondary-color, #000000);
+}
+
+.header__nav__first-menu__anchor:hover,
+.header__nav__first-menu__anchor:active {
+    color: var(--tertiary-color, #ffffff);
+}
+
+.header__nav__first-menu__anchor__current {
+    color: var(--tertiary-color, #ffffff);
+    pointer-events: none;
+}
+
+.header__nav__second-menu {
+    background-color: var(--secondary-color, #000000);
+    display: flex;
+    column-gap: 5vw;
+    padding: 20px 2.5vw;
+}
+
+.header__nav__second-menu__main-anchor {
+    text-decoration: none;
+    font-size: var(--primary-font-size, 2vw);
+    color: var(--tertiary-color, #ffffff);
+}
+
+.header__nav__second-menu__main-anchor:hover,
+.header__nav__second-menu__main-anchor:active {
+    color: var(--primary-color, #E50914);
+}
+
+.header__nav__second-menu__main-anchor__current {
+    color: var(--primary-color, #E50914);
+    pointer-events: none;
+}
+
+.header__nav__second-menu__anchor {
+    text-decoration: none;
+    color: var(--tertiary-color, #ffffff);
+}
+
+.header__nav__second-menu__anchor:hover,
+.header__nav__second-menu__anchor:active {
+    color: var(--primary-color, #E50914);
+}
+
+.header__nav__second-menu__anchor__current {
+    color: var(--primary-color, #E50914);
+    pointer-events: none;
+}
+
+.header__space {
+    font-size: var(--primary-font-size, 2vw);
+    padding: 20px 0;
+    visibility: hidden;
+}
+
+.header__space h1 {
+    font-size: var(--primary-font-size, 2vw);
+}
