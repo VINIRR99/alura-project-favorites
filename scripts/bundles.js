@@ -48,16 +48,16 @@ class Header {
 
 class Content {
     constructor(url) {
+        new CapturedElement({
+            querySelector: 'head',
+            append: { element: new StylesheetLink('content.css').element, pos: 'last' }
+        })
+
+        const media = url.searchParams.get('media');
+        const type = url.searchParams.get('type');
+
         (async () => {
-            new CapturedElement({
-                querySelector: 'head',
-                append: { element: new StylesheetLink('content.css').element, pos: 'last' }
-            })
-
-            const media = url.searchParams.get('media');
-            const type = url.searchParams.get('type');
-
-            const content = new CapturedElement({
+            const content = await new CapturedElement({
                 querySelector: 'main',
                 classAtr: 'content',
                 innerHTML: new CardContainer().outerHTML
