@@ -1,8 +1,11 @@
 import { limitURLs, createTitle } from "./utils.js";
-import { Title, Header } from "./bundles.js";
+import { Title, Header, Main } from "./bundles.js";
 
-const url = limitURLs(window.location);
-const title = createTitle(url.searchParams);
+(async () => {
+    const url = await limitURLs(window.location);
+    const title = createTitle(url.searchParams);
 
-new Title(title);
-new Header(title, url);
+    new Title(title);
+    new Header(title, url);
+    new Main(url);
+})()

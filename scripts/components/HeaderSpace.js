@@ -1,8 +1,10 @@
-class HeaderSpace {
+import { CreateElement } from "../utils.js";
+
+class HeaderSpace extends CreateElement {
     constructor() {
-        this.innerHTML = `
-    <p>M</p>
-`
+        super(`<div class="header__space">
+            <p>M</p>
+        </div>`)
     }
 }
 

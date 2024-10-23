@@ -1,13 +1,15 @@
-class HeaderAnchor {
+import { CreateElement } from "../utils.js";
+
+class HeaderAnchor extends CreateElement {
     constructor({ name, toURL, currentURL, classAtr }) {
-        this.outerHTML = `<a
-    href="./index.html${toURL}"
-    class="${classAtr}${(currentURL === toURL)
-        ? ` ${classAtr}__current`
-        : ''
-    }">
-    ${name}
-</a>`
+        super(`<a
+            href="./index.html${toURL}"
+            class="${classAtr}${(currentURL === toURL)
+                ? ` ${classAtr}__current`
+                : ''
+            }">
+            ${name}
+        </a>`)
     }
 }
 
