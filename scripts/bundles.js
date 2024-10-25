@@ -1,10 +1,11 @@
 import { dataHandler, CapturedElement } from "./utils.js";
 import StylesheetLink from "./components/StylesheetLink.js";
 import FirstMenu from "./components/FirstMenu.js";
-import CardContainer from "./components/CardContainer.js";
-import Card from "./components/Card.js";
 import SecondMenu from "./components/SecondMenu.js";
 import HeaderSpace from "./components/HeaderSpace.js";
+import CardContainer from "./components/CardContainer.js";
+import Card from "./components/Card.js";
+import Media from "./components/Media.js";
 
 class Title {
     constructor(title) {
@@ -84,12 +85,39 @@ class Content {
     }
 }
 
+class Info {
+    constructor(url) {
+        new CapturedElement({
+            querySelector: 'head',
+            append: { element: new StylesheetLink('info.css').element, pos: 'last' }
+        })
+
+        const title = url.searchParams.get('title');
+        
+        (async () => {
+            const info = new CapturedElement({
+                querySelector: 'main',
+                classAtr: 'info'
+            })
+
+            const media = await dataHandler.getOneData({ title, excludKeys: ['type'] });
+            info.innerHTML = new Media({...await media}).innerHTML;
+        })()
+    }
+}
+
 class Main {
     constructor(url) {
         (async () => {
             const page = url.searchParams.get('page');
 
-            if (page === 'list') new Content(url);
+            switch (page) {
+                case 'list':
+                    new Content(url);
+                    break;
+                case 'title':
+                    new Info(url);
+            }
         })()
     }
 }

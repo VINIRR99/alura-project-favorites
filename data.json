@@ -110,7 +110,7 @@
         },
         "synopsis": "Stardew Valley is an open-ended country-life RPG! You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town’s most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!",
         "wikiPage": {
-            "site": "IGBD",
+            "site": "IGDB",
             "url": "https://www.igdb.com/games/stardew-valley"
         },
         "mainCrew": {
@@ -2240,6 +2240,312 @@
                 {
                     "name": "Dafne Keen",
                     "page": "https://www.imdb.com/name/nm6748436/?ref_=tt_ov_st_3"
+                }
+            ]
+        }
+    },
+    {
+        "title": "A Dog's Will",
+        "type": { "media": "movie", "type": "live action" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYzE4YzlmNjctNGFmOC00Nzg3LWFlOWQtMDU4YTA0MTJhODY3XkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/x7ISUk6Y35Q",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=x7ISUk6Y35Q"
+        },
+        "synopsis": "Follows the lives of 2 poor Brazilians and their schemes to get money and the consequences of their actions.",
+        "wikiPage": {
+            "site": "IMDB",
+            "url": "https://www.imdb.com/title/tt0271383/"
+        },
+        "mainCrew": {
+            "Directors": [
+                {
+                    "name": "Guel Arraes",
+                    "page": "https://www.imdb.com/name/nm0037136/?ref_=tt_ov_dr_1"
+                }
+            ],
+            "Writers": [
+                {
+                    "name": "Guel Arraes",
+                    "page": "https://www.imdb.com/name/nm0037136/?ref_=tt_ov_wr_1"
+                },
+                {
+                    "name": "Adriana Falcão",
+                    "page": "https://www.imdb.com/name/nm0266045/?ref_=tt_ov_wr_2"
+                },
+                {
+                    "name": "João Falcão",
+                    "page": "https://www.imdb.com/name/nm0266049/?ref_=tt_ov_wr_3"
+                }
+            ],
+            "Stars": [
+                {
+                    "name": "Matheus Nachtergaele",
+                    "page": "https://www.imdb.com/name/nm0618690/?ref_=tt_ov_st_1"
+                },
+                {
+                    "name": "Selton Mello",
+                    "page": "https://www.imdb.com/name/nm0578080/?ref_=tt_ov_st_2"
+                },
+                {
+                    "name": "Rogério Cardoso",
+                    "page": "https://www.imdb.com/name/nm0136692/?ref_=tt_ov_st_3"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Mob Psycho 100",
+        "type": { "media": "serie", "type": "animation" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYzU3NDM4ZjgtY2UyMi00YTczLTgyNDEtMjBiMDJlOGUxNjcxXkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/nTze7vAdRpM",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=nTze7vAdRpM"
+        },
+        "synopsis": "A psychic middle school boy tries to live a normal life and keep his growing powers under control, even though he constantly gets into trouble.",
+        "wikiPage": {
+            "site": "IMDB",
+            "url": "https://www.imdb.com/title/tt5897304/"
+        },
+        "mainCrew": {
+            "Stars": [
+                {
+                    "name": "Setsuo Ito",
+                    "page": "https://myanimelist.net/people/27243/Setsuo_Itou"
+                },
+                {
+                    "name": "Takahiro Sakurai",
+                    "page": "https://www.imdb.com/name/nm0757327/?ref_=tt_ov_st_2"
+                },
+                {
+                    "name": "Miyu Irino",
+                    "page": "https://www.imdb.com/name/nm0997115/?ref_=tt_ov_st_3"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Fate/Zero",
+        "type": { "media": "serie", "type": "animation" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMTEyMjRiYjUtMzJkOC00NDBmLWI4Y2YtNDk5ZTQyMDNhMjgxXkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/n-7PFiut1HI",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=n-7PFiut1HI"
+        },
+        "synopsis": "Seven chosen mages and their summoned heroic spirits fight against each other to try and win the Holy Grail: a magical device that can grant any wish.",
+        "wikiPage": {
+            "site": "MY ANIME LIST",
+            "url": "https://myanimelist.net/anime/10087/Fate_Zero"
+        },
+        "mainCrew": {
+            "Stars": [
+                {
+                    "name": "Ayako Kawasumi",
+                    "page": "https://www.imdb.com/name/nm0442933/?ref_=tt_ov_st_1"
+                },
+                {
+                    "name": "Sayaka Ôhara",
+                    "page": "https://www.imdb.com/name/nm1360441/?ref_=tt_ov_st_3"
+                },
+                {
+                    "name": "Rikiya Koyama",
+                    "page": "https://myanimelist.net/people/113/Rikiya_Koyama"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Fate/stay night [Unlimited Blade Works]",
+        "type": { "media": "serie", "type": "animation" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZTNmZWI3ZWYtNjkzYi00ZTFkLWI0MzctMjc2YzlmNGRkNzRiXkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/eFwpJvrbDuw",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=eFwpJvrbDuw"
+        },
+        "synopsis": "A group of seven magicians gets chosen to become masters of seven classes of heroic spirits, in order to fight and win the Holy Grail.",
+        "wikiPage": {
+            "site": "MY ANIME LIST",
+            "url": "https://myanimelist.net/anime/22297/Fate_stay_night__Unlimited_Blade_Works"
+        },
+        "mainCrew": {
+            "Stars": [
+                {
+                    "name": "Noriaki Sugiyama",
+                    "page": "https://www.imdb.com/name/nm1617276/?ref_=tt_ov_st_1"
+                },
+                {
+                    "name": "Kana Ueda",
+                    "page": "https://www.imdb.com/name/nm1290090/?ref_=tt_ov_st_2"
+                },
+                {
+                    "name": "Ayako Kawasumi",
+                    "page": "https://myanimelist.net/people/13/Ayako_Kawasumi"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Cyberpunk: Edgerunners",
+        "type": { "media": "serie", "type": "animation" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BM2JkMzM2ZmYtNWU4MS00MjZhLWFhZWUtYWFjYTJkN2RhZDliXkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/JtqIas3bYhg",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=JtqIas3bYhg"
+        },
+        "synopsis": "A Street Kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an Edgerunner, a Mercenary outlaw also known as a Cyberpunk.",
+        "wikiPage": {
+            "site": "MY ANIME LIST",
+            "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners"
+        },
+        "mainCrew": {
+            "Stars": [
+                {
+                    "name": "Aoi Yuuki",
+                    "page": "https://myanimelist.net/people/6686/Aoi_Yuuki"
+                },
+                {
+                    "name": "KENN",
+                    "page": "https://myanimelist.net/people/857/KENN"
+                },
+                {
+                    "name": "Tomoyo Kurosawa",
+                    "page": "https://myanimelist.net/people/11661/Tomoyo_Kurosawa"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Dungeon Meshi",
+        "type": { "media": "serie", "type": "animation" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmU3ZGFhMmYtNzczYy00NTE0LThkYjgtNWFiYTY2NzRkM2QzXkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/n5JEoD7keVo",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=n5JEoD7keVo"
+        },
+        "synopsis": "Can sisters be reincarnated from dragon poop? Laios and his friends Marcille and Chilchuck delve into an endless dungeon in search of his fallen sister, fighting monsters, starvation, and corruption.",
+        "wikiPage": {
+            "site": "IMDB",
+            "url": "https://www.imdb.com/title/tt21621494/"
+        },
+        "mainCrew": {
+            "Stars": [
+                {
+                    "name": "Kentarô Kumagai",
+                    "page": "https://www.imdb.com/name/nm7782778/?ref_=tt_ov_st_1"
+                },
+                {
+                    "name": "Sayaka Senbongi",
+                    "page": "https://www.imdb.com/name/nm5693865/?ref_=tt_ov_st_2"
+                },
+                {
+                    "name": "Asuna Tomari",
+                    "page": "https://www.imdb.com/name/nm8267203/?ref_=tt_ov_st_3"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Golden Kamuy",
+        "type": { "media": "serie", "type": "animation" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BYTliMTU1OTEtOTE0Yi00YmUxLWFiN2YtYzBlNzdkNjg2MmY3XkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/G2raRyN6kgY",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=G2raRyN6kgY"
+        },
+        "synopsis": "In the early 20th century in Hokkaido, Japan, a treasure hunt between various parties takes place for a hidden stash of gold.",
+        "wikiPage": {
+            "site": "IMDB",
+            "url": "https://www.imdb.com/title/tt8225204/"
+        },
+        "mainCrew": {
+            "Stars": [
+                {
+                    "name": "Chikahiro Kobayashi",
+                    "page": "https://www.imdb.com/name/nm6257123/?ref_=tt_ov_st_1"
+                },
+                {
+                    "name": "Haruka Shiraishi",
+                    "page": "https://www.imdb.com/name/nm5329879/?ref_=tt_ov_st_2"
+                },
+                {
+                    "name": "Fumihiko Tachiki",
+                    "page": "https://www.imdb.com/name/nm0846192/?ref_=tt_ov_st_3"
+                }
+            ]
+        }
+    },
+    {
+        "title": "The Disastrous Life of Saiki K.",
+        "type": { "media": "serie", "type": "animation" },
+        "img": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMzJhYWEyMWUtZDYwNS00NTU4LTgwODItYjBlNzEwMTc5MTc2XkEyXkFqcGc@._V1_.jpg",
+            "locationCaptionName": "m.media-amazon",
+            "locationCaptionUrl": "https://m.media-amazon.com/images/G/01/AmazonStores/Help/en/index.html"
+        },
+        "trailer": {
+            "url": "https://www.youtube.com/embed/sbw7QB6nrTc",
+            "locationCaptionName": "YouTube",
+            "locationCaptionUrl": "https://www.youtube.com/watch?v=sbw7QB6nrTc"
+        },
+        "synopsis": "Saiki Kusuo is a powerful psychic who hates attracting attention, yet he is surrounded by colorful characters who always find a way to remove him from his everyday life.",
+        "wikiPage": {
+            "site": "IMDB",
+            "url": "https://www.imdb.com/title/tt6354518/"
+        },
+        "mainCrew": {
+            "Creators": [
+                {
+                    "name": "Shûichi Asô",
+                    "page": "https://www.imdb.com/name/nm7392207/?ref_=tt_ov_wr_1"
+                }
+            ],
+            "Stars": [
+                {
+                    "name": "Hiroshi Kamiya",
+                    "page": "https://www.imdb.com/name/nm0436778/?ref_=tt_ov_st_1"
+                },
+                {
+                    "name": "Daisuke Ono",
+                    "page": "https://www.imdb.com/name/nm1328775/?ref_=tt_ov_st_2"
+                },
+                {
+                    "name": "Nobunaga Shimazaki",
+                    "page": "https://www.imdb.com/name/nm4858403/?ref_=tt_ov_st_3"
                 }
             ]
         }

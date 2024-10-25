@@ -49,6 +49,25 @@ class DataHandler {
 
         return await data;
     }
+
+    getOneData = async ({ title, excludKeys }) => {
+        const data = await this.getData(async data => {
+            let media = await data.find(item => item.title === title);
+            let newMedia = {};
+
+            if (!excludKeys) {
+                Object.assign(newMedia, await media)
+            } else {
+                const keys = Object.keys(await media).filter(key => !excludKeys.includes(key))
+
+                keys.forEach(async key => { newMedia[key] = await media[key] })
+            }
+
+            return newMedia;
+        })
+
+        return await data;
+    }
 }
 
 const dataHandler = new DataHandler();
@@ -76,7 +95,13 @@ const limitURLs = async location => {
 
     const acceptablesStr = acceptables.map(item => {
         const keys = Object.keys(item);
-        const values = Object.values(item).map(value => value.split(' ').join('+'));
+        const values = Object.values(item).map(value => {
+            return encodeURIComponent(value)
+                .replaceAll('%20', '+')
+                .replaceAll('%3A', ':')
+                .replaceAll('%2C', ',')
+                .replaceAll("'", '%27')
+        });
         
         let str = `?${keys[0]}=${values[0]}`;
 

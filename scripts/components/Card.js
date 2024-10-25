@@ -8,7 +8,11 @@ class Card extends CreateElement {
                     href="./index.html?page=title&media=${
                         type.media
                     }&title=${
-                        title.split(' ').join('+')
+                        encodeURIComponent(title)
+                            .replaceAll('%20', '+')
+                            .replaceAll('%3A', ':')
+                            .replaceAll('%2C', ',')
+                            .replaceAll("'", '%27')
                     }">
                     <img
                         src="${img.url}"
